@@ -31,7 +31,7 @@ Finally, we set up a crontab to insert data usage data to the related table ever
 
 * psql_docker.sh: To create, start and stop the psql instance.
 Usage ````./scripts/psql_docker.sh start|stop|create [db_username][db_password]````
-*  ddl.sql
+*  ddl.sql: To create 
 * host_info.sh: Collect hardware information and insert them into host_agent DB. Usage:```bash scripts/host_info.sh psql_host psql_port db_name psql_user psql_password```
 * host_usage.sh: Collect usage information and insert them into host_info DB. Usage```bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password```
 * crontab: runs every minute and execute host_usage to insert usage information into host_agent DB.
