@@ -28,7 +28,7 @@ collect hardware specification data and insert them into the host_info table. Si
 Finally, we set up a crontab to insert data usage data to the related table every minute.
 ## Architecture
 
-![Architecture Diagram](./.assets/cluster_diagram.drawio.png)
+![Architecture Diagram](./assets/cluster_diagram.drawio.png)
 Nodes are connected via a switch. Only one node includes the PSQL instance. All the nodes have the bash scripts or
 bash agent for collecting and inserting statistical information into DB. All the nodes expect the one including PSQL instance inserting their result into DB through switch.
 ## Scripts
