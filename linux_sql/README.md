@@ -27,11 +27,15 @@ specification data and usage data respectively using ddl.sql. host_info.sh is us
 collect hardware specification data and insert them into the host_info table. Similarly, the host_usage.sh is used to collect usage data and save them into the related table. 
 Finally, we set up a crontab to insert data usage data to the related table every minute.
 ## Architecture
+
+![Architecture Diagram](./.assets/cluster_diagram.drawio.png)
+Nodes are connected via a switch. Only one node includes the PSQL instance. All the nodes have the bash scripts or
+bash agent for collecting and inserting statistical information into DB. All the nodes expect the one including PSQL instance inserting their result into DB through switch.
 ## Scripts
 
 * psql_docker.sh: To create, start and stop the psql instance.
 Usage ````./scripts/psql_docker.sh start|stop|create [db_username][db_password]````
-*  ddl.sql: To create 
+* ddl.sql: To create host_info and host_usage tables ````psql -h localhost -U postgres -d host_agent -f sql/ddl.sql````
 * host_info.sh: Collect hardware information and insert them into host_agent DB. Usage:```bash scripts/host_info.sh psql_host psql_port db_name psql_user psql_password```
 * host_usage.sh: Collect usage information and insert them into host_info DB. Usage```bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password```
 * crontab: runs every minute and execute host_usage to insert usage information into host_agent DB.
