@@ -13,27 +13,31 @@ skills:
   # At least 5 skills
   proficient:
     - Java
+    - python
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - Scikit-learn
+    - Numpy
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - C++
+    - JaveScript
+    - HTML
+    - Matlab
+    - Computer Vision
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Deep Learning
+    - Pyspark
+    - Reinforcement Learning
+    - Seaborn
+    - Matplotlib
 
 # List of Jarvis projects
 jarvis_projects:
+   Project 
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
