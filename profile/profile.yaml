@@ -37,13 +37,12 @@ skills:
     - Matplotlib
 
 # List of Jarvis projects
-jarvis_projects:
-   Project 
-  - name: "Cluster Monitor"
-    git_url: "/linux_sql"
+jarvis_projects: 
+    - name: "Cluster Monitor"
+      git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "The goal of this project is to monitor each Linux node usage statistics within a Linux cluster. The project includes a series of bash scripts to create and start a PSQL instance within a docker container. 
+      description: "The goal of this project is to monitor each Linux node usage statistics within a Linux cluster. The project includes a series of bash scripts to create and start a PSQL instance within a docker container. 
     Subsequently, by using crontab it automatically collects usage statistics and inserts them into a DB called host_agent in the docker container every minute. "
   
 # List of personal or academic projects
@@ -85,17 +84,17 @@ education:
     duration: "2014-2019"
     degree: "Doctorate of Computer Science"
     department: "Computer Science"
-   
+    awards_achievements: 
   - school_name: "University of Western Ontario"
     duration: "2011-2013"
     degree: "Master of Computer Science"
     department: "Computer Science"
-    
- - school_name: "Sharif University of Technology"
+    awards_achievements:
+  - school_name: "Sharif University of Technology"
     duration: "2005-2010"
     degree: "Bachelor of Computer Science"
     department: "Computer Science"
-
+    awards_achievements:
 #Optional section
 others:
     #category
