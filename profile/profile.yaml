@@ -5,11 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NasimSamei
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I received my Ph.D. in computer science from the University of Western Ontario. After graduation, I spent a year in Austria as a postdoc researcher mainly focuses
-          on designing efficient algorithms for optimization problems. After postdoc, I realized I was interested in engaging myself in a more practical environment. I am eager to use my strong
-          problem-solving potential and creativity to solve real-life problems. I think a scientific mindset is a great asset that can assist me in writing meaningful programs. Before you start writing code you need to have a clear picture of what the problem is and what the program suppose to do.  Next, we need to determine how to design the program to satisfy the defined duty. We have to determine appropriate data structures and the number of entities involved. During my Ph.D. I have worked on a datascience-computer vision project called pedestrian detection in which I have learned how to extract meaningful features from data for the purpose of classification. 
-          In addition, in my post-doc research project I learnt to work with neural networks. I have joined Jarvis Consulting Company
-          as a Data Engineer and currently working on Python/SQL data analystics project."
+summary: "I received my Ph.D. in computer science from the University of Western Ontario. After graduation, I spent a year in Austria as a postdoc researcher mainly focuses on designing efficient algorithms for optimization problems. After postdoc, I realized I was interested in engaging myself in a more practical environment. I am eager to use my strong problem-solving potential and creativity to solve real-life problems. I think a scientific mindset is a great asset that can assist me in writing meaningful programs. Before you start writing code you need to have a clear picture of what the problem is and what the program suppose to do.  Next, we need to determine how to design the program to satisfy the defined duty. We have to determine appropriate data structures and the number of entities involved. During my Ph.D. I have worked on a datascience-computer vision project called pedestrian detection in which I have learned how to extract meaningful features from data for the purpose of classification. In addition, in my post-doc research project I learnt to work with neural networks. I have joined Jarvis Consulting Company as a Data Engineer and currently working on Python/SQL data analystics project."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -25,7 +21,6 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
-    
   # At least 5 skills
   competent:
     - C++
@@ -39,22 +34,20 @@ skills:
     - Deep Learning
     - Pyspark
     - Seaborn
+    - Hadoop
+    - R
 
-# List of Jarvis projects
+
+# List of Jarvis projectsis_projects:
 jarvis_projects: 
-    - name: "Cluster Monitor"
-      git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-      description: "The goal of this project is to monitor each Linux nodes usage statistics within a Linux cluster. The project includes a series of bash scripts to create and start a PSQL instance within a Docker container. 
-    Subsequently, by using crontab it automatically collects usage statistics and inserts them into a DB called host_agent in the Docker container every minute. "
-     - name: "Python Data Analytics"
-      git_url: "/python_data_wrangling"
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    description: "The goal of this project is to monitor each Linux nodes usage statistics within a Linux cluster. The project includes a series of bash scripts to create and start a PSQL instance within a Docker container. Subsequently, by using crontab it automatically collects usage statistics and inserts them into a DB called host_agent in the Docker container every minute"
 
-      description: "The goal of this project is to assist a retail company to make better business decisions using advanced data analytics technologies.  In this project, the retail data is loaded into a PSQL DB which could be considered a Dataware house used for data analyses. Next, analyses are performed using python in Jyputer Notebook. 
-      Especially, pandas library for storing (using DataFrames) and manipulating data. In addition, Matplotlib is used for plotting."
-  
-# List of personal or academic projects
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: "The goal of this project is to assist a retail company to make better business decisions using advanced data analytics technologies. In this project, the retail data is loaded into a PSQL DB which could be considered a Dataware house used for data analyses. Next, analyses are performed using python in Jyputer Notebook. Especially, pandas library for storing (using DataFrames) and manipulating data. In addition, Matplotlib is used for plotting."
+# List of personal or academic project
 # Feel free to add more projects
 highlighted_projects:
     #project name
@@ -62,10 +55,7 @@ highlighted_projects:
     
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "In this project, I have examined different features such as global
-histogram, local histogram, SIFT and HoG for detecting a pedestrian in an image and
-then for classification I have trained different classifiers such as Knn and linear-SVM and
-Kernel-SVM. The goal of this project was to suggest a robust feature with an appropriate
-classifier."
+histogram, local histogram, SIFT and HoG for detecting a pedestrian in an image and then for classification I have trained different classifiers such as Knn and linear-SVM and Kernel-SVM. The goal of this project was to suggest a robust feature with an appropriate classifier."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -88,7 +78,7 @@ professional_experience:
     Technologies used are Pytorch, Python, and Gurobi Optimizer."
 
 #List of edcuation
-education: 
+education:
   - school_name: "University of Western Ontario"
     duration: "2014-2019"
     degree: "Doctorate of Computer Science"
