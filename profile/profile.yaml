@@ -6,9 +6,10 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NasimSamei
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
 summary: "I received my Ph.D. in computer science from the University of Western Ontario. After graduation, I spent a year in Austria as a postdoc researcher mainly focuses
-on designing efficient algorithms for optimization problems. After postdoc, I realized I was interested in engaging myself in a more practical environment. I am eager to use my strong
-problem-solving potential and creativity to solve real-life problems. I think a scientific mindset is a great asset that can assist me in writing meaningful programs. Before you start writing code you need to have a clear picture of what the problem is and what the program suppose to do.  Next, we need to determine how to design the program to satisfy the defined duty. We have to determine appropriate data structures and the number of entities involved. During my Ph.D. I have worked on a datascience-computer vision project called pedestrian detection in which I have learned how to extract meaningful features from data for the purpose of classification. In addition, in my post-doc research project I learnt to work with neural networks. I have joined Jarvis Consulting Company
-as a Data Engineer and currently working on Python/SQL data analystics project. "
+          on designing efficient algorithms for optimization problems. After postdoc, I realized I was interested in engaging myself in a more practical environment. I am eager to use my strong
+          problem-solving potential and creativity to solve real-life problems. I think a scientific mindset is a great asset that can assist me in writing meaningful programs. Before you start writing code you need to have a clear picture of what the problem is and what the program suppose to do.  Next, we need to determine how to design the program to satisfy the defined duty. We have to determine appropriate data structures and the number of entities involved. During my Ph.D. I have worked on a datascience-computer vision project called pedestrian detection in which I have learned how to extract meaningful features from data for the purpose of classification. 
+          In addition, in my post-doc research project I learnt to work with neural networks. I have joined Jarvis Consulting Company
+          as a Data Engineer and currently working on Python/SQL data analystics project."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -18,6 +19,7 @@ skills:
     - Python
     - Numpy
     - Pandas
+    - Matplotlib
     - Java
     - Linux/Bash
     - RDBMS/SQL
@@ -37,7 +39,6 @@ skills:
     - Deep Learning
     - Pyspark
     - Seaborn
-    - Matplotlib
 
 # List of Jarvis projects
 jarvis_projects: 
