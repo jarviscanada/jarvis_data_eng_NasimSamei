@@ -11,5 +11,13 @@ London Gift Shop (LGS) web applications are managed by Azure resource groups whi
 
 # Data Analytics and Wrangling
 
-[Here](./retail_data_analytics_wrangling.ipynb) you can find the result of the data analytics. According to Monthly Sales charts, the Sale increased in November however then decreased dramatically in January. In addition, we have a similar situation for the Monthly Active Users chart. The number of active users increased in November; however, later in January, this number decreased remarkably. To increase both sales and the number of active users one suggestion is to have more promotions and sales events in January and February. 
-Moreover, if we note the result of RFM segmentation there are a considerable number of customers from groups 'Can't lose' or 'At risk'. We need to develop some marketing strategies like targeted promotions or contacting the customer to decrease the risk of losing valuable customers.
+[Here](./retail_data_analytics_wrangling.ipynb) you can find the result of the data analytics. you can find the result of the data analytics. First, if we note the amount distribution for the first 85 quantiles we  observe that most of the invoices are below 400. Therefore, to attract customers we can offer bundle promotions below 400. In addition, according to Monthly Sales and Monthly placed charts the number of order and sale increased in November however then decreased dramatically in January and February. We could provide customers with financing options for these months. Moreover, we have a similar situation for the Monthly Active Users chart. The number of active users increased in November; however, later in January, this number decreased remarkably. To increase active users similarly we may provide financing options targeting active users.
+ 
+Furthermore, if we note the result of RFM segmentation there are a considerable number of customers from groups 'Can't lose' or 'At risk'. We need to develop some marketing strategies similar to the one recommended, bundle promotions or financing options targeting these groups of customers, also we may contact them and let them know about these offers to decrease the risk of losing valuable customers.
+
+# Improvement
+
+1. Include product analytics and statistics by extracting related information from a description field  to come up with better marketing strategies.
+
+2. Include visual representation for the consumers of each category in the RFM segmentation.  
+
